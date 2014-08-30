@@ -7,8 +7,9 @@ superagent
     var $ = cheerio.load(res.text);
     var codes = $('ul#inline-elements')
                 .text()
-                .replace(/\s/gm,'')
-                .split(",");
+                .replace(/\s/gm,',')
+                .split(",")
+                .filter(String);
 
     console.log('/**');
     console.log(' * This file automatically generated from `build.js`.');
