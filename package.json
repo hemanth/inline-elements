@@ -1,5 +1,5 @@
 {
-  "name": "void-elements",
+  "name": "inline-elements",
   "version": "0.1.0",
   "description": "Array of \"inline elements\" defined by the HTML specification.",
   "main": "index.js",
@@ -9,19 +9,19 @@
   },
   "keywords": [
     "html",
-    "void",
-    "elements"
+    "elements",
+    "inline"
   ],
-  "repository": "hemanth/void-elements",
+  "repository": "hemanth/inline-elements",
   "author": "hemanth.hm",
   "engines": {
     "node": ">=0.10.0"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hemanth/void-elements/issues"
+    "url": "https://github.com/hemanth/inline-elements/issues"
   },
-  "homepage": "https://github.com/hemanth/void-elements",
+  "homepage": "https://github.com/hemanth/inline-elements",
   "devDependencies": {
     "cheerio": "^0.17.0",
     "superagent": "^0.18.2"
