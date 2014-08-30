@@ -1,6 +1,6 @@
 {
   "name": "void-elements",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Array of \"inline elements\" defined by the HTML specification.",
   "main": "index.js",
   "scripts": {
