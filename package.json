@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/hemanth/inline-elements",
   "devDependencies": {
-    "cheerio": "^0.17.0",
-    "superagent": "^0.18.2"
+    "cheerio": "^0.18.0",
+    "superagent": "^0.21.0"
   },
   "files": [
     "index.js",
