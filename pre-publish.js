@@ -5,11 +5,11 @@ superagent
   .get('https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente')
   .end(function (err, res) {
     var $ = cheerio.load(res.text);
-    var codes = $('ul#inline-elements')
-                .text()
-                .replace(/\s/gm,',')
-                .split(",")
-                .filter(String);
+    var codes = $('.threecolumns > dl > dt')
+    .text()
+    .replace(/\>|\</gm,' ')
+    .split(" ")
+    .filter(String)
 
     console.log('/**');
     console.log(' * This file automatically generated from `build.js`.');
