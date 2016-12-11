@@ -24,7 +24,7 @@
   "homepage": "https://github.com/hemanth/inline-elements",
   "devDependencies": {
     "cheerio": "^0.18.0",
-    "superagent": "^0.21.0"
+    "superagent": "^3.2.1"
   },
   "files": [
     "index.js",
